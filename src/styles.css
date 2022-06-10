@@ -55,7 +55,8 @@ blockquote {
 }
 
 body.home {
-  background-image: url(./img/cruzJesus.jpg);
+  /* background-image: url(./img/cruzJesus.jpg); */
+  background-image: url(./img/cruzJesus.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
