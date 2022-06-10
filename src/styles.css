@@ -608,7 +608,7 @@ figure {
   }
 }
 
-#pez {
+/* #pez {
   position: absolute;
   animation: 6s run infinite linear;
 }
@@ -625,9 +625,9 @@ figure {
   100% {
     left: 20%;
   }
-}
+} */
 
-.agua {
+/* .agua {
   position: absolute;
   width: 100%;
   animation: 5s ola linear infinite;
@@ -659,4 +659,4 @@ figure {
     left: 0%;
   }
 
-}
+} */

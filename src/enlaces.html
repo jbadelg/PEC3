@@ -5,7 +5,8 @@
   <meta charset="utf-8" />
   <title>PEC1 HTML II</title>
   <link rel="stylesheet" href="styles.css" />
-  <script type="module" src="app.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="app.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Niconne&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -15,8 +16,8 @@
   <header>
     <div class="container">
       <div class="brand">
-        <a href="index.html"><img src="./img/logoJesus.png" alt="logo del sitio" title="Jesús" width="278"
-            height="120"></a>
+        <a href="index.html"><img src="./img/logoJesus.png" alt="logo del sitio" title="Página principal"
+            aria-label="Link a pagina principal con logo del sitio Jesús" width="278" height="120"></a>
       </div>
       <nav class="nav">
         <ul>
@@ -69,8 +70,8 @@
   <footer>
     <div class="container">
       <div class="brand">
-        <a href="index.html"><img src="./img/logoJesus.svg" alt="logo del sitio" title="Jesús" width="70"
-            height="40"></a>
+        <a href="index.html"><img loading="lazy" src="./img/logoJesus.svg" alt="logo del sitio" title="Página principal"
+            aria-label="Link a pagina principal con logo del sitio Jesús" width="70" height="40"></a>
       </div>
       <nav class="nav-foot">
         <ul>
@@ -87,7 +88,7 @@
       </ul>
     </div>
   </footer>
-  <script src="app.js"></script>
+  <script src="app.js" defer></script>
 </body>
 
 </html>
